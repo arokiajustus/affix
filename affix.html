@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=9">
+    <title>Ave Maria</title>
+    <script type="text/javascript" src="lib/jquery.min.js"></script>
+    <script type="text/javascript" src="lib/affix.js"></script>
+    <script>
+      function goTop() {
+        location.href='#top';
+      }
+    </script>
+    <style>
+      body {
+        margin: 0px;
+        font: 12px verdana, tahoma;
+      }
+      .toplinks1 {
+        padding: 10px;
+        background-color: green;
+      }
+      .toplinks2 {
+        padding: 10px;
+        background-color: yellow;
+      }
+      .topbutton {
+        display: none;
+      }
+      .goal {
+        float: right;
+        width: auto;
+      }
+      .affix .toplinks2 .goal {
+        text-align: center;
+        float: none;
+        display: inline-block;
+        width: 96%;
+      }
+      .affix .topbutton {
+        display: block;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+      }
+      .affix .toplinks1 {
+        position: fixed;
+        top: 0;
+        background-color: transparent;
+        z-index: 99;
+      }
+      .affix .toplinks2 {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        padding-left: 50px;
+      }
+      .main-content {
+        line-height: 30px;
+        background-color: grey;
+      }
+    </style>
+  </head>
+  <body>
+      <div class="affix top" data-spy="affix" data-offset-top="40">
+        <div class="toplinks1">
+          Virgin
+        </div>
+        <div class="toplinks2">
+          Marist
+          <div class="goal">
+            Search the kingdom of God
+          </div>
+        </div>
+        <div class="topbutton">
+          <button id="goTopButton">Go to Top</button>
+        </div>
+      </div>
+      <div class="main-content">
+        Praise the Lord
+        <br>Praise the Lord
+        <br>Praise the Lord
+        <br>Praise the Lord
+        <br>Praise the Lord
+        <br>Praise the Lord
+        <br>Praise the Lord
+        <br>Praise the Lord
+        <br>Praise the Lord
+        <br>Praise the Lord
+        <br>Praise the Lord
+        <br>Praise the Lord
+        <br>Praise the Lord
+        <br>Praise the Lord
+        <br>Praise the Lord
+        <br>Praise the Lord
+        <br>Praise the Lord
+        <br>Praise the Lord
+        <br>Praise the Lord
+        <br>Praise the Lord
+        <br>Praise the Lord
+        <br>Praise the Lord
+        <br>Praise the Lord
+        <br>Praise the Lord
+        <br>Praise the Lord
+        <br>Praise the Lord
+        <br>Praise the Lord
+        <br>Praise the Lord
+        <br>Praise the Lord
+        <br>Praise the Lord
+        <br>Praise the Lord
+        <br>Praise the Lord
+        <br>Praise the Lord
+        <br>Praise the Lord
+        <br>Praise the Lord
+      </div>
+      <script>
+        $( document ).ready(function() {
+          $('#goTopButton').on("click", goTop);
+        });        
+      </script>
+  </body>
+</html>
